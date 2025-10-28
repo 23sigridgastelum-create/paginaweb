@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Pagina personal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: Papyrus, serif, cursive;
+  }
+
+  body {
+    background-image: url('imagenproyecto/foto12.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .side img {
+    width: 230px;  /* Cambiado de 100% a 230px */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #000000;  /* borde pequeño */
+  }
+
+  .main-content {
+    flex: 1;
+    background-color: #380A0A;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #fff;
+    max-width: 1000px;
+  }
+
+  .section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .section h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .section img {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .section .small-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .section .small-images img {
+    width: 49%;
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Lado izquierdo -->
+    <div class="side left">
+      <img src="imagenproyecto/foto6.jpg" alt="Foto 6" />
+      <img src="imagenproyecto/foto7.jpg" alt="Foto 7" />
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+      <!-- Sobre mí -->
+      <div class="section">
+        <h2>Sobre mí</h2>
+        <p>Hola, esta página es para mi proyecto de programación... Mi nombre es Sigrid, tengo la edad de 17 años lo cual nací en el 2008 más específicamente hablando un 2 de junio... estudio en el CBTIS224 donde es bastante difícil de acoplarse, he hecho unos amigos, no cercanos pero son para andar ahí.</p>
+        <p>Hablo 3 idiomas actualmente, mi idioma nativo el español latinoamericano, se hablar inglés... no profesionalmente pero puedo entablar muchas conversaciones casuales como políticas. El tercer idioma es el que estoy aprendiendo ahorita, que sería el japonés:</p>
+        <p>はじめまして わたし わ シグリッド です..<br>
+        ねんれい 17 さい.<br>
+        わたし わ がくせん です<br>
+        わたし わ ビディーオーゲームズ お する の が すき です</p>
+        <p>No es que lo hable tan fluido como el inglés, sin embargo, se decir varias cosas e escribirlas.</p>
+        <img src="imagenproyecto/foto1.jpg" alt="Foto principal"/>
+      </div>
+
+      <!-- Gustos -->
+      <div class="section">
+        <h2>Lo que me gusta</h2>
+        <p>Me gusta mucho salir a plazas y fiestas con amigos. Me apasiona la arquitectura aunque no soy tan buena en matemáticas, pero sí en dibujo. Me gusta jugar videojuegos como Valorant, LoL o Bloxburg. Soy creativa, me gusta la moda y los desfiles; mi modelo favorita es Vlada y me gustó mucho la pasarela de SONIA RYKIEL Spring Summer 2008 Paris. También colecciono arte y disfruto tomar fotos, que es mi nuevo pasatiempo.</p>
+        <div class="small-images">
+          <img src="imagenproyecto/foto2.jpg" alt="Foto 2"/>
+          <img src="imagenproyecto/foto3.jpg" alt="Foto 3"/>
+        </div>
+      </div>
+
+      <!-- Familia y amigos -->
+      <div class="section">
+        <h2>Familia y amigos</h2>
+        <p>Mi familia es mi mamá y mi gato Kiwi. Tengo dos medias hermanas llamadas Azul y Abril. Mis amigos son personas que conozco desde hace años. No tengo muchos amigos y no soy muy buena socializando. Mis amigos son de mi antigua escuela, el TecMilenio; los veo no muy seguido por mi horario vespertino. Cuando no los veo, salgo sola o con mi pareja.</p>
+        <div class="small-images">
+          <img src="imagenproyecto/foto4.jpg" alt="Foto 4"/>
+          <img src="imagenproyecto/foto5.jpg" alt="Foto 5"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lado derecho -->
+    <div class="side right">
+      <img src="imagenproyecto/foto8.jpg" alt="Foto 8" />
+      <img src="imagenproyecto/foto9.jpg" alt="Foto 9" />
+    </div>
+  </div>
+</body>
+</html>
